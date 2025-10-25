@@ -1,4 +1,4 @@
-import heroLogo from '../assets/hero-logo.svg';
+import heroLogo from '../assets/hero-logo copy.svg';
 
 export default function Hero() {
   return (
@@ -7,13 +7,10 @@ export default function Hero() {
         <img
           src={heroLogo}
           alt="Ceylon Surf Diary"
-          className="w-64 mx-auto mb-8"
+          className="w-80 mx-auto mb-12"
         />
 
-        <p
-          className="text-gray-700 leading-relaxed"
-          style={{ fontFamily: 'Poppins, sans-serif', lineHeight: '1.8' }}
-        >
+        <p className="text-gray-700 leading-relaxed font-poppins text-base max-w-3xl mx-auto" style={{ lineHeight: '1.8' }}>
           On the southern waves of Sri Lanka — Weligama, Midigama, and Ahangama — every surf
           ride tells a story. Captures the motion, the alluring, and the moments that make each wave
           unforgettable. From the first splash to the last glisten, we, Ceylon Surf Diary frames the soul

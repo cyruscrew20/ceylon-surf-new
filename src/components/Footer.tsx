@@ -1,5 +1,5 @@
 import { Facebook, Instagram } from 'lucide-react';
-import navLogo from '../assets/nav-logo.svg';
+import navLogo from '../assets/nav-logo copy copy.svg';
 
 interface FooterProps {
   onNavigate: (page: string) => void;
@@ -19,8 +19,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li>
                 <button
                   onClick={() => onNavigate('home')}
-                  className="text-gray-600 hover:text-black transition-colors"
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                  className="text-gray-600 hover:text-black transition-colors font-poppins"
                 >
                   Home
                 </button>
@@ -28,8 +27,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li>
                 <button
                   onClick={() => onNavigate('our-story')}
-                  className="text-gray-600 hover:text-black transition-colors"
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                  className="text-gray-600 hover:text-black transition-colors font-poppins"
                 >
                   Our Story
                 </button>
@@ -37,8 +35,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li>
                 <button
                   onClick={() => onNavigate('portfolio')}
-                  className="text-gray-600 hover:text-black transition-colors"
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                  className="text-gray-600 hover:text-black transition-colors font-poppins"
                 >
                   Portfolio
                 </button>
@@ -46,8 +43,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li>
                 <button
                   onClick={() => onNavigate('packages')}
-                  className="text-gray-600 hover:text-black transition-colors"
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                  className="text-gray-600 hover:text-black transition-colors font-poppins"
                 >
                   Packages
                 </button>
@@ -55,8 +51,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li>
                 <button
                   onClick={() => onNavigate('blog')}
-                  className="text-gray-600 hover:text-black transition-colors"
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                  className="text-gray-600 hover:text-black transition-colors font-poppins"
                 >
                   Contact
                 </button>
@@ -65,28 +60,16 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
 
           <div>
-            <p
-              className="text-gray-600 mb-2"
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
+            <p className="text-gray-600 mb-2 font-poppins">
               +94 76 76 36 567
             </p>
-            <p
-              className="text-gray-600 mb-4"
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
+            <p className="text-gray-600 mb-4 font-poppins">
               ceylonsurfdiary@gmail.com
             </p>
-            <p
-              className="text-gray-600 mb-2"
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
+            <p className="text-gray-600 mb-2 font-poppins">
               Upukai Surf Shop
             </p>
-            <p
-              className="text-gray-600"
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
+            <p className="text-gray-600 font-poppins">
               Weligama, Sri Lanka
             </p>
           </div>

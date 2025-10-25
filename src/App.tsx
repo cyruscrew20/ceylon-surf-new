@@ -3,6 +3,8 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import PortfolioPage from './pages/PortfolioPage';
+import OurStoryPage from './pages/OurStoryPage';
+import PackagesPage from './pages/PackagesPage';
 import ComingSoonPage from './pages/ComingSoonPage';
 
 function App() {
@@ -15,9 +17,9 @@ function App() {
       case 'portfolio':
         return <PortfolioPage />;
       case 'our-story':
-        return <ComingSoonPage title="Our Story" />;
+        return <OurStoryPage />;
       case 'packages':
-        return <ComingSoonPage title="Packages" />;
+        return <PackagesPage />;
       case 'blog':
         return <ComingSoonPage title="Blog" />;
       default:

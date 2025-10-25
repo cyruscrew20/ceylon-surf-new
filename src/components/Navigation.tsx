@@ -1,5 +1,5 @@
 import { Facebook, Instagram } from 'lucide-react';
-import navLogo from '../assets/nav-logo.svg';
+import navLogo from '../assets/nav-logo copy copy.svg';
 
 interface NavigationProps {
   currentPage: string;
@@ -31,12 +31,11 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
               <li key={item.page}>
                 <button
                   onClick={() => onNavigate(item.page)}
-                  className={`text-sm tracking-wide transition-colors ${
+                  className={`text-sm tracking-wide transition-colors font-poppins ${
                     currentPage === item.page
                       ? 'text-black font-medium'
                       : 'text-gray-600 hover:text-black'
                   }`}
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   {item.label}
                 </button>
